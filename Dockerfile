@@ -8,4 +8,4 @@ RUN mvn clean package ; cp target/*.war /usr/local/tomcat/webapps/
 
 CMD ["catalina.sh","run"]
 
-# USER user
+# USER user is commented out
